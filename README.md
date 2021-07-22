@@ -1,5 +1,9 @@
 # A machine learning web app for salary prediction using random forest regressor.
 
+Tested on Python 3.7.4
+
+--- 
+
 In this project I will build an Machine Learning app utilize the "The Public 2020 Stack Overflow Developer Survey Results" for predicting the salary of a developer based on chosen attributes.
 
 A short overview:
@@ -26,6 +30,7 @@ The Public 2020 Stack Overflow Developer Survey Results
 
 https://insights.stackoverflow.com/survey
 
---- 
+---
+
 
 Reference: https://www.youtube.com/watch?v=xl0N7tHiwlw
