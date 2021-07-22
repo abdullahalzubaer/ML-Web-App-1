@@ -11,6 +11,12 @@ Step 2: Adopt Random Forest Regressor as the ML algorithm and select the hyper-p
 Step 2: Create and launch locally the web application using Streamlit.
 
 
+# To run the web app
+Please go to the terminal where you have saved this project (the trained model is also present in this repository) and execute the following command:
+
+```
+streamlit run main.py
+```
 
 --- 
 
