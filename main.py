@@ -1,12 +1,13 @@
-import streamlit as st
 import pickle
-import numpy as np
 
+import numpy as np
+import streamlit as st
 
 # Loading the pre-trained model and the encoders
 
+
 def load_model():
-    with open("saved_steps.pkl", 'rb') as file:
+    with open("saved_steps.pkl", "rb") as file:
         data = pickle.load(file)
     return data
 
@@ -25,7 +26,9 @@ le_education = data["le_education"]
 
 def show_predict_page():
     st.title("Software Developer Salary Prediction")  # show title
-    st.write("""### We need some information to predict the salary""")  # show text, and can use markdown syntax
+    st.write(
+        """### We need some information to predict the salary"""
+    )  # show text, and can use markdown syntax
 
     # All different choices for the country.
     countries = (
