@@ -12,7 +12,7 @@ Step 1: Preprocessing of the dataset and make it suitable for training the ML mo
 
 Step 2: Adopt Random Forest Regressor as the ML algorithm and select the hyper-parameter using Grid Search CV.
 
-Step 2: Create and launch locally the web application using Streamlit.
+Step 3: Create and launch locally the web application using Streamlit.
 
 
 # To run the web app
