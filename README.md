@@ -1,5 +1,29 @@
 # A machine learning web app for salary prediction using random forest regressor.
 
+## To run in a docker container:
+
+### Building the image locally
+
+
+Step 1: Download the docker file and build an image using the following command 
+
+```
+docker build -t salary .
+```
+
+Step 2: Once the image has been build, use the docker-compose.yml file for executing the application Read more about docker compose file [here](https://docs.docker.com/compose/) - in short its a composition of all necessary things ("Define the services that make up your app in `docker-compose.yml` so they can be run together in an isolated environment.")required to run the application
+
+ ```
+ docker-compse up
+ ```
+
+
+### Pulling the image from Docker hub
+
+
+
+## To run locally
+
 Tested on Python 3.7.4
 
 --- 
