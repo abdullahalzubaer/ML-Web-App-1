@@ -1,0 +1,9 @@
+name: salary_pred
+channels:
+  - default
+dependencies:
+  - python=3.7.4
+  - pip:
+    - numpy == 1.16.5
+    - streamlit == 0.82.0
+    - scikit-learn == 0.21.3
