@@ -25,7 +25,7 @@ NOTE: Latest sklearn will not be working with the code I have provided (the save
 conda env create -f environment.yml
 ```
 
-Then execute the following line from terminal (inside the same conda Environment) where you have saved this project (the trained model is also present in this repository) and execute the following command:
+Then execute the following line from terminal (inside the same conda Environment) where the project is saved (the trained model is also present in this repository) and execute the following command:
 
 ```
 streamlit run main.py
