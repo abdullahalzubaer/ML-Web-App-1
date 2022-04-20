@@ -16,6 +16,12 @@ Step 2: Once the image has been build, use the docker-compose.yml file for execu
  ```
  docker-compse up
  ```
+ 
+Step 2 (alternative): Or we can just run this command (it is equivalent to what is written inside the docker-compose.yml file)
+ 
+```
+docker run --name=salary_new_container --rm -p 8501:8501 salary
+```
 And then go to 
 
 ```
