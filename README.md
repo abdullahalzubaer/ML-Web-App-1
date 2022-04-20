@@ -5,6 +5,13 @@
 
 ## 1 To run in a docker container:
 
+List of required file to create the image:
+```
+Dockerfile
+main.py
+saved_steps.pkl
+environment.yml
+```
 ### Building the image locally
 
 
@@ -17,7 +24,7 @@ docker build -t salary .
 Step 2: Once the image has been build, use the docker-compose.yml file for executing the application Read more about docker compose file [here](https://docs.docker.com/compose/) - in short its a composition of all necessary things ("Define the services that make up your app in `docker-compose.yml` so they can be run together in an isolated environment.")required to run the application
 
  ```
- docker-compse up
+ docker-compose up
  ```
  
 Step 2 (alternative): Or we can just run this command (it is equivalent to what is written inside the docker-compose.yml file)
