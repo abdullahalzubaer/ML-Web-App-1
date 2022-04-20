@@ -60,7 +60,7 @@ Step 2: Adopt Random Forest Regressor as the ML algorithm and select the hyper-p
 Step 3: Create and launch locally the web application using Streamlit.
 
 
-# To run the web app 
+To run the web app :
 
 Please create an conda environment first using the environment.yml file 
 
