@@ -1,6 +1,9 @@
 # A machine learning web app for salary prediction using random forest regressor.
 
-## To run in a docker container:
+---
+
+
+## 1 To run in a docker container:
 
 ### Building the image locally
 
@@ -22,6 +25,13 @@ Step 2 (alternative): Or we can just run this command (it is equivalent to what 
 ```
 docker run --name=salary_new_container --rm -p 8501:8501 salary
 ```
+```
+--name=salary_new_container -> This is the name of the container that you see when you do "docker-container ls", we can leave it empty then just docker will give some strange names. 
+
+--rm ->automatically cleans up the container and removes the file system when the container exits  [Reference](https://github.com/abdullahalzubaer/knote-js/blob/master/01_writing_a_note_taking_app.md)
+
+-p 8501:8501 ->  publishes port 8501 of the container to port 8501 of our local machine. That means, if we now access port 3000 on our computer, the request is forwarded to port 3000 of the salary container. We can use the forwarding to access the app from your local machine. [Reference](https://github.com/abdullahalzubaer/knote-js/blob/master/01_writing_a_note_taking_app.md)
+```
 And then go to 
 
 ```
@@ -33,7 +43,7 @@ for the running app :)
 
 
 
-## To run locally
+## 2 To run locally
 
 Tested on Python 3.7.4
 
