@@ -16,7 +16,12 @@ Step 2: Once the image has been build, use the docker-compose.yml file for execu
  ```
  docker-compse up
  ```
+And then go to 
 
+```
+http://localhost:8501/
+```
+for the running app :)
 
 ### Pulling the image from Docker hub
 
