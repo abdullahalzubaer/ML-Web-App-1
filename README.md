@@ -15,8 +15,17 @@ Step 2: Adopt Random Forest Regressor as the ML algorithm and select the hyper-p
 Step 3: Create and launch locally the web application using Streamlit.
 
 
-# To run the web app
-Please go to the terminal where you have saved this project (the trained model is also present in this repository) and execute the following command:
+# To run the web app 
+
+Please create an conda environment first using the environment.yml file 
+
+NOTE: Latest sklearn will not be working with the code I have provided (the saved model was done using old sklearn library) that is why this conda env file I have created.
+
+```
+conda env create -f environment.yml
+```
+
+Then execute the following line from terminal (inside the same conda Environment) where you have saved this project (the trained model is also present in this repository) and execute the following command:
 
 ```
 streamlit run main.py
