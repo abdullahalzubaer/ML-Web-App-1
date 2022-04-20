@@ -1,0 +1,7 @@
+version : "3.5"
+services:
+  service_salary:
+    image: salary
+    container_name: salary_container
+    ports:
+      - "8501:8501"
