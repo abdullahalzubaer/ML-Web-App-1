@@ -48,7 +48,29 @@ for the running app :)
 
 ### Pulling the image from Docker hub
 
+Run the following cmnd to pull the image of this application from my docker hub
 
+```
+docker pull abdullahalzubaer/salary-prediction:1.0.0
+```
+
+after you have pulled the image, you can check it by using `docker image ls -a`.
+
+Then run the application using the following command
+
+```
+docker run --rm --name=a_container_that_lives_for_a_while -p 8501:8501 abdullahalzubaer/salary-prediction:1.0.0
+OR
+docker run --rm --name=a_container_that_lives_for_a_while -p 8501:8501 IMAGE ID
+[both works]
+```
+
+then please go to 
+
+```
+http://localhost:8501/
+```
+where the app is running
 
 ## 2 To run locally
 
